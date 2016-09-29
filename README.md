@@ -1,2 +1,0 @@
-# stagewh
-site stage
