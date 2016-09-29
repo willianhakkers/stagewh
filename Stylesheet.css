@@ -1,0 +1,168 @@
+BODY{
+	Background-color: #790000;
+	Margin: 0 auto;
+	Height: 100%;
+	Width: 80%;
+	Font-family: Coolvetica, "Trebuchet MS", Helvetica;
+	Color: white;
+}
+
+
+
+/*NAVIGATIE*/
+/*NAVIGATIE*/
+/*NAVIGATIE*/
+
+HEADER{
+	Border: 1px solid white;
+	Border-width: 1px 0;
+	List-style: none;
+	Margin: 0;
+	Margin-top: 3%;
+	Text-align: center;
+}
+
+HEADER UL{
+	padding: 0;
+}
+
+HEADER UL LI{
+	Display: inline;
+}
+
+HEADER UL LI A{
+	Display: inline-block;
+	Padding: 1% 1% 1% 1%;
+	Font-size: 25px;
+	Font-weight: bold;
+	Text-Decoration: none;
+	Color: white;
+}
+
+
+
+/*PAGINA*/
+/*PAGINA*/
+/*PAGINA*/
+
+.MidPage{
+	Font-size: 15px;
+	Margin: 0 auto;
+	Padding: 0% 3% 1% 3%;
+	Text-align: justify;
+}
+
+.MidPage H1{
+	Text-align: center;
+    transform: rotate(-5deg);
+    color: black;
+    font-size: 35px;
+    margin-top: 1%;
+    margin: 0 auto;
+    width: 30%;
+}
+
+ARTICLE{
+	Padding-top: 10px;
+	Padding-bottom: 10px;
+    	Border: 1px solid white;
+	Border-width: 0px 1px 0px 1px;
+}
+
+.MidPage P{
+	Padding: 0% 3% 0% 3%;
+}
+
+
+
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+
+FOOTER{
+	Border: 1px solid white;
+	Border-width: 1px 0px 0px 0px;
+	List-style: none;
+	Margin: 0;
+	Margin-top: 3%;
+	Text-align: center;
+    height: 100%;
+}
+
+FOOTER UL{
+	padding: 0;
+}
+
+FOOTER UL LI{
+	Display: inline;
+    Padding: 0% 10% 0% 10%;
+}
+
+FOOTER UL LI A{
+	Display: inline-block;
+	Font-size: 15px;
+	Text-Decoration: none;
+	Color: white;
+}
+
+
+
+/*OVERIG*/
+/*OVERIG*/
+/*OVERIG*/
+
+HEADER:hover{
+	Transition: 0.3s;
+	Border: 1px solid black;
+	Border-width: 1px 0;
+}
+
+HEADER UL LI A:hover{
+	Transition: 0.3s;
+	Color: black;
+    transform: rotate(-5deg);
+}
+
+.MidPage H1:hover{
+    transition: 0.3s;
+    color: white;
+}
+
+ARTICLE:hover{
+    Border: 1px solid black;
+	Border-width: 0px 1px 0px 1px;
+    transition: 0.3s;
+}
+
+P:hover{
+    transition: 0.3s;
+    color: black;
+	font-weight: lighter;    
+}
+
+FOOTER:hover{
+	Transition: 0.3s;
+	Border: 1px solid black;
+	Border-width: 1px 0px 0px 0px;
+}
+
+FOOTER UL LI A:hover{
+    Transition: 0.3s;
+	Color: black;
+    transform: rotate(-5deg);
+}
+
+@Font-face{
+    Font-family: Coolvetica; 
+    src: url('fonts/coolvetica%20rg.ttf');
+}
+
+@Font-face{
+    Font-family: Specify; 
+    src: url('fonts/SpecifyPERSONAL-NormMedium.ttf');
+}
+
+@Font-face{
+    Font-family: Kenyan; 
+    src: url('fonts/kenyan%20coffee%20rg.ttf');
+}
